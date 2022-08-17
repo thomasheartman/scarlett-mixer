@@ -23,6 +23,7 @@ executable('scarlett-mixer',
   ],
   dependencies: deps,
   include_directories: include_directories('robtk'),
+  install: true,
   c_args: [
     '-DAPPTITLE="Scarlett 18i6/18i8 Mixer"',
     '-DDEFAULT_NOT_ONTOP',
